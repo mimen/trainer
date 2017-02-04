@@ -1,0 +1,22 @@
+# Logs
+logs
+*.log
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directory
+node_modules
+bower_components
+
+# Debug log from npm
+npm-debug.log
+
+# Local configuration file
+config/local.js
+
+# not sure what this is
+dump.rdb
+
+# Mac system storage file thingy
+./**/.DS_Store

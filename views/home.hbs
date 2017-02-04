@@ -1,0 +1,21 @@
+
+<div id="app">
+
+  <p id='timer' v-text='formatTime(seconds)'></p>
+
+  <button v-on:click="toggle">Turn \{{buttonText}}</button>
+
+  <div v-for='todo in todos'>
+    <div v-if='todo.rest > seconds' style='color:black'>
+      \{{todo.name}}
+    </div>
+    <div v-else style='color:gray'>
+      \{{todo.name}}
+    </div>
+  </div>
+
+</div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.4/numeral.min.js"></script>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="js/home.js"></script>
