@@ -1,4 +1,7 @@
+//jshint esversion: 6
 Vue.config.delimiters = ['${', '}'];
+
+console.log('hello');
 
 const vm = new Vue({
   el: '#app',
@@ -27,7 +30,7 @@ const vm = new Vue({
 
     toggle: function() {
       this.status = !this.status;
-      if (this.status == true) {
+      if (this.status === true) {
         this.buttonText = 'off';
         this.startTimer();
       } else {
