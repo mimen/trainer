@@ -1,0 +1,6 @@
+cd file                       <- change directory
+ls                            <- list files in folder
+npm install                   <- installs all node packages from package.json into node_modules folder
+npm install <package-name>    -  Installs the npm package with the name
+npm install --save <package-name>     - Installs it and adds it to package.json
+apm install                   - Install atom package
