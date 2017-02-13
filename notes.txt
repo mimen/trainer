@@ -5,6 +5,9 @@ npm install <package-name>    -  Installs the npm package with the name
 npm install --save <package-name>     - Installs it and adds it to package.json
 apm install                   - Install atom package
 
+node app.js       <- starts server  (every time you make changes, you must  restart)
+nodemon           <- starts server, restarts anytime you make changes
+CTRL + c to quit the server if it's running
 
 git status      <- shows file changes/additions
 git diff        <- displays all code changes
@@ -15,4 +18,4 @@ git push    <- pushes offline commits to github
 
 git branch branchname   <- creates branch
 git branch              <- shows list of branches & highlights current
-git checkout branchname <-switches to branch 
+git checkout branchname <-switches to branch
