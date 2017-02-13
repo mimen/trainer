@@ -4,3 +4,15 @@ npm install                   <- installs all node packages from package.json in
 npm install <package-name>    -  Installs the npm package with the name
 npm install --save <package-name>     - Installs it and adds it to package.json
 apm install                   - Install atom package
+
+
+git status      <- shows file changes/additions
+git diff        <- displays all code changes
+to update on github
+git add <name>                   <- adds to next commit
+git commit -m "nameofchange"
+git push    <- pushes offline commits to github
+
+git branch branchname   <- creates branch
+git branch              <- shows list of branches & highlights current
+git checkout branchname <-switches to branch 
